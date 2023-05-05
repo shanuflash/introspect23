@@ -1,6 +1,5 @@
 let images = [];
-for (let i = 2; i < 153; i++) {
-  if (i !== 3)
+for (let i = 1; i < 153; i++) {
     images.push({
       id: i,
       src: "../" + i + ".webp",
