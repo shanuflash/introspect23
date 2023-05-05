@@ -6,7 +6,6 @@ function App() {
   const scroll = useRef(null);
   const handleScroll = (e) => {
     scroll.current.scrollLeft += e.deltaY;
-    console.log(scroll.current.scrollLeft);
   };
 
   return (
