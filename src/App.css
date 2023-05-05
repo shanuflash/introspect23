@@ -4,6 +4,9 @@
   display: flex;
   flex-direction: column;
   overflow: hidden;
+  align-items: center;
+  object-fit: contain;
+
 }
 
 .tip {
@@ -16,9 +19,8 @@
 }
 
 .images {
-  height: 100%;
+  /* height: 100%; */
   display: flex;
-  align-items: center;
   overflow-x: scroll;
   overflow-y: hidden;
   gap: 1rem;
@@ -27,4 +29,23 @@
 img {
   max-height: 100dvh;
   max-width: 100vw;
+  /* user-drag: none; */
+  -webkit-user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+.right{
+  background-color: rgb(69, 69, 69);
+  border: none;
+  width: 400px;
+  margin-left: 300px;
+}
+
+.left{
+  background-color: rgb(69, 69, 69);
+  border: none;
+  width: 400px;
+  margin-right: 300px;
 }
